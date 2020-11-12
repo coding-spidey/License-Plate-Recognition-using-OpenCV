@@ -71,7 +71,6 @@ for sampleImage in samepleImages:
 file = open('data.txt')
 for line in file:
     line = line.rstrip()
-    print(line)
     actual.append(line)
 
 # comparing the result we got through openCV and actual data, to find the accuracy using the difflib module
