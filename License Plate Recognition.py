@@ -9,7 +9,7 @@ import os
 
 # setting the tesseract cmd
 # tesseract is used to detect texts in Images
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\sneha\AppData\Local\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'{{ Enter the directory of tesseract here }}'
 
 # Obtaining the list of sample images
 directory = r'images'
