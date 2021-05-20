@@ -85,3 +85,11 @@ print("=========================================")
 for i in range(10):
     print("{:<13}".format(result[i])+'\t' +
           "{:<13}".format(actual[i])+'\t'+accuracy[i])
+print("=========================================")
+
+avg_accuracy  = 0
+for accurate in accuracy:
+    avg_accuracy += int(accurate)
+
+print(f'Average accuracy is = {avg_accuracy/10}%')
+print('\n')
